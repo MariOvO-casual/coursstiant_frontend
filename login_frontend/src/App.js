@@ -5,6 +5,7 @@ import Register from './components/Register';
 import ChatPage from './components/ChatPage/ChatPage';
 import BotsPage from './components/BotsPage/BotsPage';
 import NavBar from './components/NavBar/NavBar';
+import PiazzaPage from './components/PiazzaPage/PiazzaPage';
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/bots" element={<BotsPage />} />
+          <Route path="/piazza" element={<PiazzaPage />} />
         </Routes>
       </div>
     </Router>
